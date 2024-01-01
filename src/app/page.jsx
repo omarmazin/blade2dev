@@ -1,8 +1,11 @@
-import Navbar from "./components/navbar"
+
+import Main from "./components/main"
+import Services from "./components/services" 
 export default function Home() {
   return (
     <main>
-      <Navbar />
+      <Main />
+      <Services />
     </main>
   )
 }
